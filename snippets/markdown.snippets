@@ -181,3 +181,16 @@ snippet begin
     \begin{${0: type}}
     ${1: content}
     \end{${0}}
+
+snippet algorithm
+    ~~~algo
+    \begin{algorithm}
+        \caption{${0}}
+        \begin{algorithmic}
+            \Procedure{${1}}{$a,b$} \Comment{$a, b$ are inputs}
+                \State ${2}
+            \EndProcedure
+        \end{algorithmic}
+    \end{algorithm}
+    ~~~
+
